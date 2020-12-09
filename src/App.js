@@ -26,13 +26,15 @@ function App() {
   return (
       <div>
         <div className="main">
-          <h1 className='title text-center'>Get Nutrition Facts Now</h1>
-          <h3 className='sub-title text-center'><span>Free </span>nutrition data for <span>100,000+</span> foods
-            and beverages</h3>
 
-          <Search setNutrition={setNutrition} getNutrition={getNutrition} message={message}/>
-          <Calories nutrition={nutrition}/>
-        </div>
+             <h1 className='title text-center'>Get Nutrition Facts Now</h1>
+             <h3 className='sub-title text-center'><span>Free </span>nutrition data for <span>100,000+</span> foods
+                 and beverages</h3>
+
+             <Search setNutrition={setNutrition} getNutrition={getNutrition} message={message}/>
+             <Calories nutrition={nutrition}/>
+         </div>
+
       </div>
   )
 }
